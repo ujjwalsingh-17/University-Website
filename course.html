@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDU University - HorridHanu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="University.com"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="nav-items"><a href="index.html">Home</a></li>
+                    <li class="nav-items"><a href="about.html">About</a></li>
+                    <li class="nav-items"><a href="course.html">Course</a></li>
+                    <li class="nav-items"><a href="blog.html">Blog</a></li>
+                    <li class="nav-items"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Courses</h1>
+
+    </section>
+
+    <!------------------Course content-->
+
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Courses we provide..</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Take your skills to the next level with our Intermediate Course. Designed for those who have a basic understanding of the subject matter, this course delves deeper into key concepts, techniques, and practical applications. Expand your knowledge and gain hands-on experience through engaging projects and real-world scenarios.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Introducing our comprehensive degree program, designed to equip you with the knowledge and skills necessary for a successful career in your chosen field. Our degree courses provide a rigorous curriculum, taught by industry experts and renowned professors, ensuring you receive a quality education. With a focus on practical application and hands-on learning, you'll gain invaluable experience through internships and real-world projects.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Welcome to our Post-Graduation Course Section! We are excited to offer you a comprehensive range of specialized programs designed to elevate your knowledge and skills to the next level. Our post-graduation courses provide an immersive learning experience tailored to your field of interest. With expert faculty, industry-relevant curriculum, and hands-on projects, you will gain invaluable expertise and practical insights.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -----------Facility------------------->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Welcome to our esteemed university, where we prioritize your comfort and success. Our institution boasts state-of-the-art facilities that cater to all aspects of your academic journey.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/library.png">
+                <h3>World Class Library</h3>
+                <p>Our library is a treasure trove of knowledge, housing a vast collection of books, journals, and digital resources spanning various disciplines. With comfortable study spaces, collaborative workstations, and quiet reading areas, you'll find the perfect environment to concentrate and engage in scholarly pursuits.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/basketball.png">
+                <h3>Play Ground</h3>
+                <p>We take pride in offering exceptional recreational spaces that cater to the diverse interests of our students. Our expansive campus boasts state-of-the-art facilities, including well-maintained sports fields, basketball and tennis courts, jogging tracks, and fitness zones. </p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/cafeteria.png">
+                <h3>Tasty and Helthy Food</h3>
+                <p>Welcome to our university's Healthy Foods Facilities! We believe that nourishing your mind and body is essential for a successful academic journey. Our campus is dedicated to promoting a healthy and balanced lifestyle, and our healthy foods facilities play a vital role in supporting your well-being.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <hr>
+
+    <!-- -----------Footer------------------->
+    <section class="footer">
+        <!-- <h4>About Us</h4> -->
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis -->
+        <!-- porro incidunt odio? Consequuntur, <br> velit? -->
+        <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. -->
+        <!-- Reiciendis a, accusamus temporibus.</p> -->
+
+        <div class="icons">
+            <a href="https://m.facebook.com/people/Horrid-Hanu/100059716728447/?comment_id=Y29tbWVudDoxMDUwNDc1OTE4ODEyNjU2XzEwNTA0ODYwNzg4MTE2NDA%3D"
+                target="_blank" rel="noreferrer noopener"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/horridhanu" target="_blank" rel="noreferrer noopener"><i
+                    class="fa fa-instagram"></i></a>
+            <a href="https://github.com/horridhanu/" target="_blank" rel="noreferrer noopener"><i
+                    class="fa fa-github"></i></a>
+            <a href="https://www.pinterest.com/horridhanu/" target="_blank" rel="noreferrer noopener"><i
+                    class="fa fa-pinterest"></i></a>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"> </i> by HorridHanu</p>
+    </section>
+</body>
+
+<!-- -----------JAVA Script------------------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>
